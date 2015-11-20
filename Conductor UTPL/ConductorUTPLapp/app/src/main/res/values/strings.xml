@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Conductor UTPL</string>
-    <string name="desc">Conductor</string>
-    <string name="ruta">Ruta:</string>
-    <string name="lat">Latitud:</string>
-    <string name="longi">Longitud:</string>
-    <string name="envCor">Iniciar Recorrido</string>
-
-</resources>
