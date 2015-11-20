@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fondoLocalizador"
+    tools:context="com.example.pablo.conductorutplapp.localizador"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@mipmap/utpl"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.74" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/desc"
+        android:id="@+id/textView2"
+        android:textAlignment="center"
+        android:textColor="@color/tituloCond"
+        android:textSize="22dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ruta"
+        android:textColor="@color/desc"
+        android:textSize="22dp"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="15dp"
+        android:textColor="@color/desc"
+        android:id="@+id/textView4"
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/desc"
+        android:text="@string/lat"
+        android:textSize="22dp"
+        android:id="@+id/textView5" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/desc"
+        android:textSize="15dp"
+        android:id="@+id/textView6"
+        android:layout_weight="0.08" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/desc"
+        android:text="longitud"
+        android:textSize="22dp"
+        android:id="@+id/textView7" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="15dp"
+        android:textColor="@color/desc"
+        android:id="@+id/textView8"
+        android:layout_weight="0.09" />
+
+    <Button
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:text="@string/envCor"
+        android:background="@color/enviarCororde"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
