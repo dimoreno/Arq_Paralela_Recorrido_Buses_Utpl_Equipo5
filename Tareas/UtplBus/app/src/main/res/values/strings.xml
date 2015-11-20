@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">UtplBus</string>
+    <string name="titulo1">24 de Mayo</string>
+    <string name="titulo2">Pradera</string>
+    <string name="titulo3">Los Rosales</string>
+    <string name="titulo4">Terminal</string>
+    <string name="titulo5">Av. Manuel Agustin Aguirre</string>
+    <string name="titulo6">Tebaida Alta</string>
+
+    <string name="app_nam">LocationModesMapV2</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="str_rb_driving">Driving</string>
+    <string name="str_rb_bicycling">BiCycling</string>
+    <string name="str_rb_walking">Walking</string>
+</resources>

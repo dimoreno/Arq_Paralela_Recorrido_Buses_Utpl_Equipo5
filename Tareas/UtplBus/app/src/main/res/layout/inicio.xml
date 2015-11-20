@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/inicio" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dip"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <ProgressBar
+                android:id="@+id/pbSaludo"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="7dp"
+                android:layout_weight="0.7" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/tvCarga"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="right|right"
+                android:text="Cargando........"
+                android:textSize="25dp"
+                android:textColor="#eae9e1" />
+
+            <TextView
+                android:id="@+id/tvPorcentaje"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:gravity="left"
+                android:layout_marginRight="55dp"
+                android:text="#"
+                android:textSize="25dp"
+                android:textColor="#eae9e1" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
